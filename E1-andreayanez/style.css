@@ -8,6 +8,13 @@ body{
  margin:0;
 }
 
+.card:hover {
+  transform: translateY(-8px);
+
+  box-shadow: 0 10px 25px rgba(22, 99, 161, 0.5);
+}
+
+
 .card{
 background-color:rgb(243, 198, 222);
 border-radius:12px;
